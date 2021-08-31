@@ -13,6 +13,8 @@ bindsym $mod+d exec dmenu_run
 bindsym $mod+Return exec x-terminal-emulator
 # Browser
 bindsym $mod+b exec x-www-browser
+# Lock
+bindsym $mod+l exec "xscreensaver-command --lock"
 
 # Focus
 bindsym $mod+Left focus left
