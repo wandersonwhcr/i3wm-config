@@ -1,0 +1,40 @@
+# Win
+set $mod Mod4
+# Reload
+bindsym $mod+Shift+c reload
+# Restart
+bindsym $mod+Shift+r restart
+# Exit
+bindsym $mod+Shift+e exit
+
+# dmenu
+bindsym $mod+d exec dmenu_run
+# Terminal
+bindsym $mod+Return exec x-terminal-emulator
+# Browser
+bindsym $mod+b exec x-www-browser
+
+# Focus
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
+# Move
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
+# Split
+bindsym $mod+h split h
+bindsym $mod+v split v
+# Fullscreen
+bindsym $mod+f fullscreen toggle
+# Layout
+bindsym $mod+s layout stacking
+bindsym $mod+w layout tabbed
+bindsym $mod+e layout toggle split
+# Style
+new_window pixel 1
+
+# Startup
+exec --no-startup-id "xscreensaver -no-splash"
