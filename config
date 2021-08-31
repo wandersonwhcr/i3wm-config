@@ -38,6 +38,7 @@ bindsym $mod+e layout toggle split
 # Style
 new_window pixel 1
 
-# Startup
+# Screensaver
 exec --no-startup-id "xscreensaver -no-splash"
+# Numlock On
 exec --no-startup-id "numlockx on"
