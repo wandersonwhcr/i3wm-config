@@ -16,7 +16,7 @@ bindsym $mod+b exec x-www-browser
 # Lock
 bindsym $mod+l exec "xscreensaver-command --lock"
 # Screenshot
-bindsym --release $mod+p exec "scrot --select '%Y%m%d%H%M%S.png' --exec 'xclip -selection clipboard -target image/png -in $f && mv $f ~/Pictures/Screenshots'"
+bindsym --release $mod+p exec "flameshot gui"
 
 # Focus
 bindsym $mod+Left focus left
