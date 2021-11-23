@@ -39,6 +39,7 @@ bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
 # Style
 new_window pixel 1
+workspace_layout tabbed
 
 # Screensaver
 exec --no-startup-id "xscreensaver -no-splash"
