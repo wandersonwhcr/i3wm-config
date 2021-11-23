@@ -45,4 +45,4 @@ exec --no-startup-id "xscreensaver -no-splash"
 # Numlock On
 exec --no-startup-id "numlockx on"
 # X Resources
-exec --no-startup-id "xrdb -merge ~/.Xresources"
+exec_always --no-startup-id "xrdb -merge ~/.Xresources"
