@@ -44,3 +44,5 @@ new_window pixel 1
 exec --no-startup-id "xscreensaver -no-splash"
 # Numlock On
 exec --no-startup-id "numlockx on"
+# X Resources
+exec --no-startup-id "xrdb -merge ~/.Xresources"
