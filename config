@@ -18,6 +18,8 @@ bindsym $mod+l exec "xscreensaver-command --lock"
 # Screenshot
 bindsym --release $mod+p exec "flameshot gui"
 
+# AutoFocus
+focus_on_window_activation none
 # Focus
 bindsym $mod+Left focus left
 bindsym $mod+Down focus down
