@@ -52,3 +52,6 @@ exec --no-startup-id "numlockx on"
 # X Resources
 exec_always --no-startup-id "xrdb -merge ~/.Xresources"
 exec_always --no-startup-id "xsetroot -solid '#000000'"
+
+# Additional Config
+include *.local.config
