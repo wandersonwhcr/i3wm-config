@@ -1,5 +1,7 @@
 # Win
 set $mod Mod4
+# Kill
+bindsym $mod+Shift+q kill
 # Reload
 bindsym $mod+Shift+c reload
 # Restart
