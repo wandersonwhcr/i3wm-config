@@ -54,5 +54,10 @@ exec --no-startup-id "numlockx on"
 exec_always --no-startup-id "xrdb -merge ~/.Xresources"
 exec_always --no-startup-id "xsetroot -solid '#000000'"
 
+# PulseAudio
+bindsym XF86AudioRaiseVolume exec --no-startup-id "pactl set-sink-volume 0 +5%"
+bindsym XF86AudioLowerVolume exec --no-startup-id "pactl set-sink-volume 0 -5%"
+bindsym XF86AudioMute exec --no-startup-id "pactl set-sink-mute 0 toggle"
+
 # Additional Config
 include *.local.config
