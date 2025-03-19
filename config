@@ -55,9 +55,9 @@ exec_always --no-startup-id "xrdb -merge ~/.Xresources"
 exec_always --no-startup-id "xsetroot -solid '#000000'"
 
 # PulseAudio
-bindsym XF86AudioRaiseVolume exec --no-startup-id "pactl set-sink-volume 0 +5%"
-bindsym XF86AudioLowerVolume exec --no-startup-id "pactl set-sink-volume 0 -5%"
-bindsym XF86AudioMute exec --no-startup-id "pactl set-sink-mute 0 toggle"
+bindsym XF86AudioRaiseVolume exec "pactl set-sink-volume 0 +5%"
+bindsym XF86AudioLowerVolume exec "pactl set-sink-volume 0 -5%"
+bindsym XF86AudioMute exec "pactl set-sink-mute 0 toggle"
 
 # Brightness
 bindsym XF86MonBrightnessUp exec "brightnessctl set +10%"
